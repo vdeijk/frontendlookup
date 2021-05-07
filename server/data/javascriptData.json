@@ -1,0 +1,226 @@
+[
+  {
+    "id": 0,
+    "name": "Array",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 1,
+    "name": "Loops",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 2,
+    "name": "For",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 3,
+    "name": "For in",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 4,
+    "name": "Variables",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 5,
+    "name": "Let",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 6,
+    "name": "Const",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 7,
+    "name": "Strings",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 8,
+    "name": "Numbers",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 9,
+    "name": "Booleans",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 10,
+    "name": "Arrays",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 11,
+    "name": "Maps",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 12,
+    "name": "Sets",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 13,
+    "name": "Try/catch",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 14,
+    "name": "Async",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 15,
+    "name": "Objects",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 16,
+    "name": "Methods",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 17,
+    "name": "Break",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 18,
+    "name": "Functions",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 19,
+    "name": "Function calls",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 20,
+    "name": "Prototypes",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 21,
+    "name": "Classes",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 22,
+    "name": "Arrow functions",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 23,
+    "name": "Function expressions",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 24,
+    "name": "Function declarions",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 25,
+    "name": "JSON",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 26,
+    "name": "Styling",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 27,
+    "name": "Hoisting",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 28,
+    "name": "Strict mode",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 29,
+    "name": "Regular expressions",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 30,
+    "name": "Math object",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 31,
+    "name": "Date object",
+    "type": "Javascript",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "id": 0,
+    "name": "State",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 1,
+    "name": "Props",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 2,
+    "name": "Render method",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 3,
+    "name": "Prop drilling",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 4,
+    "name": "Hooks",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 5,
+    "name": "Event handling",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 6,
+    "name": "Lists",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 7,
+    "name": "Keys",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 0,
+    "name": "Composition",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 8,
+    "name": "Components",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 9,
+    "name": "JSX",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 10,
+    "name": "Lifecycle",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 11,
+    "name": "useEffect",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 12,
+    "name": "useContext",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 13,
+    "name": "useReducer",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 14,
+    "name": "useState",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 15,
+    "name": "Strict mode",
+    "type": "React",
+    "definition": "Will follow",
+    "etymology": "Will follow"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8ca25f05.chunk.css",
+    "main.js": "/static/js/main.bd8de46f.chunk.js",
+    "main.js.map": "/static/js/main.bd8de46f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5ad377de.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5ad377de.js.map",
+    "static/js/2.ffaf90ab.chunk.js": "/static/js/2.ffaf90ab.chunk.js",
+    "static/js/2.ffaf90ab.chunk.js.map": "/static/js/2.ffaf90ab.chunk.js.map",
+    "static/js/3.69558629.chunk.js": "/static/js/3.69558629.chunk.js",
+    "static/js/3.69558629.chunk.js.map": "/static/js/3.69558629.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8ca25f05.chunk.css.map": "/static/css/main.8ca25f05.chunk.css.map",
+    "static/js/2.ffaf90ab.chunk.js.LICENSE.txt": "/static/js/2.ffaf90ab.chunk.js.LICENSE.txt",
+    "static/media/book.234a2906.jpg": "/static/media/book.234a2906.jpg",
+    "static/media/computer.43a16f29.jpg": "/static/media/computer.43a16f29.jpg",
+    "static/media/dictionary.f791f293.jpg": "/static/media/dictionary.f791f293.jpg",
+    "static/media/main.scss": "/static/media/dictionary2.63cf0217.jpg",
+    "static/media/dictionary3.de93cb60.jpg": "/static/media/dictionary3.de93cb60.jpg",
+    "static/media/javascript.75220e22.png": "/static/media/javascript.75220e22.png",
+    "static/media/keyboard.fbe41b05.jpg": "/static/media/keyboard.fbe41b05.jpg",
+    "static/media/party.0dfe649b.jpg": "/static/media/party.0dfe649b.jpg",
+    "static/media/programming.7ebb4b59.jpg": "/static/media/programming.7ebb4b59.jpg",
+    "static/media/react2.3adc4d15.svg": "/static/media/react2.3adc4d15.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ad377de.js",
+    "static/js/2.ffaf90ab.chunk.js",
+    "static/css/main.8ca25f05.chunk.css",
+    "static/js/main.bd8de46f.chunk.js"
+  ]
+}
