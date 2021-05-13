@@ -1,14 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BiSearch } from "react-icons/bi";
+import { useHistory } from "react-router-dom";
 
 const Header = (props) => {
   const {
     search_input,
+    search_trigger,
     search_language,
     searchInputHandler,
     selectLanguageHandler,
-    searchSubmitHandler,
+    searchScrollHandler,
+    searchTriggerHandler,
   } = props.search_context;
+
+  const history = useHistory();
+
+  useEffect(() => {
+    if (search_trigger) history.push("/wordpage/search");
+  }, [search_trigger]);
 
   return (
     <header className="banner">
@@ -21,7 +30,7 @@ const Header = (props) => {
           </h1>
         </div>
 
-        <form className="search_bar" onSubmit={searchSubmitHandler}>
+        <form className="search_bar">
           <select
             className="search_bar__select"
             name="languages"
@@ -39,13 +48,17 @@ const Header = (props) => {
             onChange={searchInputHandler}
             value={search_input}
           />
-          <button className="search_bar__button">
+          <button className="search_bar__button" onClick={searchTriggerHandler}>
             <BiSearch className="search_bar__icon" />
           </button>
         </form>
       </div>
       <div className="banner__bottom-bar">
-        <button className="banner__button" type="submit">
+        <button
+          className="banner__button"
+          type="submit"
+          onClick={searchScrollHandler}
+        >
           Search now
         </button>
       </div>

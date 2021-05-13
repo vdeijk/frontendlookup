@@ -1,20 +1,32 @@
 import "./styles/main.scss";
-import Homepage from "./pages/Homepage";
-import Wordpage from "./pages/Wordpage";
+import { Homepage, Wordpage, ErrorPage, About, Resources } from "./pages";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Navbar from "./components/organisms/Navbar";
+import Searchbar from "./components/organisms/Searchbar";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <Navbar />
       <Switch>
-        <Route path="/" exact={true}>
+        <Route path="/" exact>
           <Homepage />
         </Route>
-        <Route path="/wordpage">
+        <Route path="/wordpage/:id">
+          <Searchbar />
           <Wordpage />
         </Route>
+        <Route path="/about">
+          <Searchbar />
+          <About />
+        </Route>
+        <Route path="/resources">
+          <Searchbar />
+          <Resources />
+        </Route>
         <Route path="*">
-          <p>Error</p>
+          <Searchbar />
+          <ErrorPage />
         </Route>
       </Switch>
     </BrowserRouter>

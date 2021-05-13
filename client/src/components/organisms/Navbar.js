@@ -1,6 +1,8 @@
 import React from "react";
 import { BiLogInCircle } from "react-icons/bi";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo2.png";
+import { BiSearch } from "react-icons/bi";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -8,14 +10,15 @@ const Navbar = () => {
       <div>
         <img src={logo} className="main_nav__logo" />
       </div>
-      <ul className="main_nav__ul">
-        <li className="main_nav__li">Words</li>
-        <li className="main_nav__li">Dictionaries</li>
-        <li className="main_nav__li">Resources</li>
-        <li className="main_nav__li">
-          <BiLogInCircle /> Login
-        </li>
-      </ul>
+      <NavLink to="/" className="main_nav__li">
+        Home
+      </NavLink>
+      <NavLink to="/about" className="main_nav__li">
+        About
+      </NavLink>
+      <NavLink to="/resources" className="main_nav__li">
+        Resources
+      </NavLink>
     </nav>
   );
 };

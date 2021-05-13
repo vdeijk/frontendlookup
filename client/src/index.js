@@ -3,12 +3,15 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { SearchProvider } from "./context/search_context";
+import { WordProvider } from "./context/word_context";
 
 ReactDOM.render(
   <SearchProvider>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+    <WordProvider>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </WordProvider>
   </SearchProvider>,
   document.getElementById("root")
 );
