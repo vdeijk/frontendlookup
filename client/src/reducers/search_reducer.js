@@ -1,42 +1,37 @@
 const search_reducer = (state, action) => {
   switch (action.type) {
-    case "HANDLE_LANGUAGE_SELECTION":
-      let url = {
-        react: "http://localhost:8000/api/v1/concepts/react",
-        javascript: "http://localhost:8000/api/v1/concepts/js",
-      };
-      switch (action.payload) {
-        case "React":
-          return {
-            ...state,
-            search_language: action.payload,
-            search_route: url.react,
-          };
-        case "JavaScript":
-          return {
-            ...state,
-            search_language: action.payload,
-            search_route: url.javascript,
-          };
-        default:
-          return;
-      }
-    case "HANDLE_SEARCH_INPUT":
-      return { ...state, search_input: action.payload };
-    case "HANDLE_SEARCH_TRIGGER":
-      const search_trigger = !state.search_trigger;
-      return { ...state, search_trigger: search_trigger };
-
-    case "GET_CONCEPTS_SUCCESS":
+    //Search related actions
+    case "HANDLE_SEARCH_LANGUAGE":
       return {
         ...state,
-        search_results: action.payload.data,
-        search_result: action.payload.search_result,
-        isLoading: false,
+        search_language: action.payload.name,
+        search_route: action.payload.url,
       };
-    case "GET_CONCEPTS_ERROR":
-      return { ...state, isLoading: false };
-
+    case "HANDLE_SEARCH_INPUT":
+      return { ...state, search_input: action.payload };
+    case "FETCH_SEARCHRESULT_BEGIN":
+      return { ...state, search_isLoading: true };
+    case "FETCH_SEARCHRESULT_SUCCESS":
+      return {
+        ...state,
+        search_result: action.payload.search_result,
+        search_isLoading: false,
+      };
+    case "FETCH_SEARCHRESULT_ERROR":
+      return { ...state, search_isLoading: false };
+    //Homepage related actions
+    case "CLICK_WOROFWEEK":
+      return { ...state, wordofweek_isLoading: true };
+    case "FETCH_HOMEPAGEDATA_BEGIN":
+      return { ...state, homepage_isLoading: true };
+    case "FETCH_HOMEPAGEDATA_SUCCESS":
+      return {
+        ...state,
+        homepage_data: action.payload,
+        homepage_isLoading: false,
+      };
+    case "FETCH_HOMEPAGEDATA_ERROR":
+      return { ...state, homepage_isLoading: false };
     default:
       throw new Error(`No Matching action type`);
   }

@@ -1,5 +1,11 @@
-import "./styles/main.scss";
-import { Homepage, Wordpage, ErrorPage, About, Resources } from "./pages";
+import "./styles/globalStyles.scss";
+import {
+  Homepage,
+  ResultPage,
+  ErrorPage,
+  AboutPage,
+  ResourcesPage,
+} from "./pages";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Navbar from "./components/organisms/Navbar";
 import Searchbar from "./components/organisms/Searchbar";
@@ -14,15 +20,15 @@ const App = () => {
         </Route>
         <Route path="/wordpage/:id">
           <Searchbar />
-          <Wordpage />
+          <ResultPage />
         </Route>
         <Route path="/about">
           <Searchbar />
-          <About />
+          <AboutPage />
         </Route>
         <Route path="/resources">
           <Searchbar />
-          <Resources />
+          <ResourcesPage />
         </Route>
         <Route path="*">
           <Searchbar />

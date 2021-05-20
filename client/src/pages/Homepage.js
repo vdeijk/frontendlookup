@@ -1,22 +1,34 @@
 import React from "react";
-import Header from "../components/organisms/Header";
-import Languages from "../components/organisms/Languages";
-import Footer from "../components/organisms/Footer";
-import Words from "../components/organisms/Words";
+import {
+  HomepageHeader,
+  HomepageExplanation,
+  HomepageLanguages,
+  HomepageWords,
+  Footer,
+} from "../components/organisms/";
 import { useSearchContext } from "../context/search_context";
-import { useWordContext } from "../context/word_context";
+import styled from "styled-components";
 
 const Homepage = () => {
   const search_context = useSearchContext();
-  const word_context = useWordContext();
   return (
-    <div className="page">
-      <Header search_context={search_context} />
-      <Languages search_context={search_context} />
-      <Words word_context={word_context} />
+    <Wrapper className="page">
+      <HomepageHeader search_context={search_context} />
+      <HomepageExplanation search_context={search_context} />
+      <HomepageLanguages search_context={search_context} />
+      <HomepageWords search_context={search_context} />
       <Footer />
-    </div>
+    </Wrapper>
   );
 };
+
+const Wrapper = styled.div`
+  display: grid;
+  grid-template-columns: minmax(6rem, 1fr) repeat(8, minmax(min-content, 16rem)) minmax(
+      6rem,
+      1fr
+    );
+  grid-template-rows: repeat(4, min-content);
+}`;
 
 export default Homepage;

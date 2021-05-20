@@ -12,6 +12,7 @@
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.0",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
@@ -40,7 +41,9 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "dotenv": "^9.0.2"
+  },
   "author": "Rick van der Eijk",
   "license": "ISC"
 }

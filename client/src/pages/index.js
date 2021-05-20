@@ -1,7 +1,7 @@
 import Homepage from "./Homepage";
-import Wordpage from "./Wordpage";
+import ResultPage from "./ResultPage";
 import ErrorPage from "./ErrorPage";
-import About from "./About";
-import Resources from "./Resources";
+import AboutPage from "./AboutPage";
+import ResourcesPage from "./ResourcesPage";
 
-export { Homepage, Wordpage, ErrorPage, About, Resources };
+export { Homepage, ResultPage, ErrorPage, AboutPage, ResourcesPage };
